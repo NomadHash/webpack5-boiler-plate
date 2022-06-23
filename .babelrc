@@ -12,6 +12,16 @@
         "@babel/preset-typescript"
     ],
     "plugins": [
-        "@emotion"
+        "@emotion",
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "@src": "./src/",
+                    "@components": "./src/components/",
+                    "@lib": "./src/lib/"
+                },
+            }
+        ]
     ]
 }
