@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        "types": [
+            "@emotion/react/types/css-prop"
+        ],
         "outDir": "./dist",
         "target": "es5",
         "module": "esnext",
